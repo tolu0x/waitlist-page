@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #013243;
+  padding: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+main {
+  padding-top: 8rem;
+}
+main .desktop-only {
+  display: none;
+}
+main .main-content {
+  z-index: 10;
+}
+main h1 {
+  color: #32F5C8;
+  font-size: 3rem;
+  line-height: 1.3;
+}
+main p {
+  color: #8ca7b3;
+  font-size: 1.2rem;
+  width: 90%;
+  padding-top: 1.5rem;
+}
+main button {
+  border: none;
+  outline: none;
+  background-color: #32F5C8;
+  height: 3.5rem;
+  width: 80%;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  color: #013243;
+  margin-top: 2rem;
+}
+main button:hover {
+  color: #32F5C8;
+  background-color: #226d86;
+}
+main > img {
+  position: absolute;
+  z-index: 1;
+}
+main .man {
+  top: 5rem;
+  left: 2rem;
+  width: auto;
+  max-height: 120px;
+}
+main .red-gloss {
+  top: 4rem;
+  right: 0.5rem;
+  width: auto;
+  max-height: 180px;
+}
+main .man-in-glass {
+  bottom: 10%;
+  right: 0.2rem;
+  width: auto;
+  max-height: 180px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: absolute;
+  bottom: 18px;
+}
+footer p {
+  color: #8ca7b3;
+}/*# sourceMappingURL=style.css.map */

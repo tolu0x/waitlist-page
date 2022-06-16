@@ -1,0 +1,107 @@
+$bg : #013243;
+$primary : #32F5C8;
+$hover  : #226d86;
+$body-copy : #8ca7b3;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $bg;
+    padding: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+main{
+
+    padding-top: 8rem;
+    
+    .desktop-only{
+        display: none;
+    }
+
+    .main-content{
+        z-index: 10;
+    }
+
+    h1{
+        color: $primary;
+        font-size: 3rem;
+        line-height: 1.3;
+    }
+
+    p{
+        color: $body-copy;
+        font-size: 1.2rem;
+        width: 90%;
+        padding-top: 1.5rem;
+    }
+
+    button{
+        border: none;
+        outline: none;
+        background-color: $primary;
+        height: 3.5rem;
+        width: 80%;
+        border-radius: 4px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 17px;
+        color: $bg;
+        margin-top: 2rem;
+    }
+
+    button:hover{
+        color: $primary;
+        background-color: $hover;
+    }
+
+    & > img{
+        position: absolute;
+        z-index: 1;
+    }
+
+    .man{
+        top: 5rem;
+        left: 2rem;
+        width: auto;
+        max-height: 120px;
+    }
+
+    .red-gloss{
+        top: 4rem;
+        right: 0.5rem;
+        width: auto;
+        max-height: 180px;
+    }
+
+    .man-in-glass{
+        bottom: 10%;
+        right: 0.2rem;
+        width: auto;
+        max-height: 180px;
+    }
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: absolute;
+    bottom: 18px;
+
+    p{
+        color: $body-copy;
+    }
+}
